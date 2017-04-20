@@ -1,0 +1,426 @@
+// all custom styles for the site
+
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-background;
+  width: 100%;
+  height: 66.66%;
+  min-height: $small;
+  background-color: $g-grey-dark;
+  background-image: url('../img/bg/overview.jpg');
+  @include background-attributes;
+  &__offset {
+    .page--overview & {
+      // different overlap for overview page
+      height: 50%;
+      min-height: ($small - 100);
+    }
+    height: 40%;
+    min-height: ($small - 150);
+  }
+  &__title {
+    position: absolute;
+    top: 33.33%;
+    left: 0;
+    right: 0;
+    z-index: $z-content;
+    height: 66.66%;
+    min-height: $small;
+    width: 100%;
+    text-align: center;
+    @media (max-height: $large){
+      top: 0;
+      margin-top: 200px;
+    }
+  }
+}
+
+.padding { padding: 2.488em 2.25em; }
+.narrow {
+  max-width: $large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page {
+  max-width: $xxlarge;
+  padding-bottom: ($margin*2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  &--hidden-gems {
+    padding-bottom: 1px; // weird bug, but is the right size
+    margin-bottom: 0;
+  }
+  &__wrap {
+    padding-left: $margin;
+    padding-right: $margin;
+    @include bp(large){
+      padding-left: ($margin*2.5);
+      padding-right: ($margin*2.5);
+    }
+  }
+  &__title {
+    padding: .57em .845em;
+    font-size: 2.2em;
+    line-height: 1;
+    color: $white;
+    background-color: $g-blue;
+    text-align: center;
+    @include shadow;
+    @include bp( small ){
+      position: absolute;
+      left: ( $margin / 3 );
+      right: ( $margin / 3 );
+      z-index: $z-content-upper;
+      background-color: rgba($g-blue,.85);
+      margin-top: -80px;
+      .csstransforms.csstransforms3d & {
+        margin-top: 0;
+        transform: translateY(-80%);
+      }
+    }
+    @include bp( medium ){
+      font-size: 2.93em;
+    }
+    @include bp ( large ){
+      left: -.76em;
+      right: auto;
+      text-align: left;
+      margin-top: -50px;
+      .csstransforms.csstransforms3d & {
+        margin-top: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+
+// ------------- overview nav styles -------------
+
+.overview-nav {
+  &__item {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 15em;
+    list-style-type: none !important;
+    text-align: center;
+    & + & {
+      margin-top: 5em;
+    }
+    &:hover .overview-nav__title{
+      padding-left: 1.2em;
+      padding-right: 1.2em;
+      background-color: $white;
+      .touch & {
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    }
+    @include bp( xlarge ){
+      text-align: left;
+      &:nth-child(even){
+        text-align: right;
+      }
+    }
+  }
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-background;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: $g-blue-darker;
+    @include shadow;
+    @include bp( xlarge ){
+      margin-left: 3.133em;
+      margin-right: 3.133em;
+    }
+  }
+  &__title-wrap {
+    text-align: inherit;
+    position: static;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 1em;
+    padding-right: 1em;
+    @include bp( xlarge ){
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  &__title {
+    display: inline-block;
+    padding: 0.66em 1em;
+    font-size: 1.728em;
+    color: $g-blue-darker;
+    line-height: 1;
+    background-color: rgba($white,.85);
+    text-transform: uppercase;
+    font-family: $title-font-family;
+    @include shadow;
+    @include transition;
+    @include bp( xlarge ){
+      font-size: 2.488em;
+    }
+  }
+}
+
+
+
+// ---------- GENERAL STYLES ----------
+
+.invert-text { color: $white; }
+.bg {
+  &--light-grey  { background-color: $grey-lighter; }
+  &--white       { background-color: $white; }
+  &--white-trans { background-color: rgba($white,.85); }
+}
+//
+// .local {
+//   text-align: center;
+//   &__interview { text-align: left; }
+//   &__avatar { max-width: $medium; margin-left: auto; margin-right: auto; }
+//   & + & { margin-top: ($margin*4); }
+//   @include bp(xlarge){
+//     text-align: left;
+//     // & + & { margin-top: ($margin*2); }
+//   }
+// }
+
+.offer-promo {
+  position: relative;
+  padding-top: ($margin*6);
+  padding-bottom: ($margin*6);
+  color: $white;
+  background-color: rgba($grey-dark,.75);
+  text-align: center;
+  &__bgs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-background;
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    @include background-attributes;
+    &:nth-of-type(1) {
+      left: 0;
+      display: block;
+    }
+    @include bp(large){
+      width: 33.33%;
+      &:nth-of-type(2) {
+        display: block;
+        left: 33.33%;
+      }
+      &:nth-of-type(3) {
+        display: block;
+        left: 66.66%;
+      }
+    }
+  }
+}
+
+
+// ---------- button ----------
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: .833em 4em;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  @include transition;
+  line-height: 1.33;
+  text-align: center;
+  &:hover { text-decoration: none; }
+  * + & { margin-top: 1.5em; }
+  &--small { font-size: 10px; }
+  &--large { font-size: 15px; }
+  &--white { background-color: rgba($white, .3);
+    &:hover { background-color: rgba($white, .5);}
+  }
+  &--blue { background-color: $g-blue;
+    &:hover { background-color: darken($g-blue, 10)}
+  }
+  &--orange { background-color: $se-orange;
+    &:hover { background-color: darken($se-orange, 5)}
+  }
+  &--outline {
+    color: $norway-dark-grey;
+    border: 1px solid $norway-dark-grey;
+    &:hover {
+      color: $white;
+      background-color: $norway-dark-grey;
+    }
+  }
+  &--outline-blue {
+    color: $g-grey-dark;
+    border: 1px solid $g-blue;
+    &:hover {
+      color: $white;
+      background-color: $g-blue;
+    }
+  }
+  &--outline-light {
+    color: $norway-dark-grey;
+    border: 1px solid $norway-grey;
+    &:hover {
+      background-color: $norway-grey;
+    }
+  }
+}
+
+
+// ---------- YOUTUBE VIDEO THUMBNAIL ----------
+
+.video {
+  position: relative;
+  height: 0;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+  background-color: #000;
+  overflow: hidden;
+  &__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include background-attributes;
+  }
+  &__play {
+    $button-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: $button-size;
+    width: $button-size;
+    margin-top: -( $button-size / 2 );
+    margin-left: -( $button-size / 2 );
+    background-image: url("../img/icons/play.png");
+    .svg & { background-image: url("../img/icons/play.svg"); }
+    @include background-attributes;
+    background-size: contain;
+    cursor: pointer;
+    @include transition;
+    &:hover {
+      transform: scale( 1.25, 1.25);
+    }
+  }
+}
+
+
+// ------------- 3 column features -------------
+
+.features {
+  @include clearfix;
+  @include bp( large ){
+    margin-left: -2.2em;
+  }
+  @include bp( xlarge ){
+    margin-right: -2.2em;
+  }
+}
+
+.feature {
+  @include layout(12 0);
+  &__content {
+    padding: 2.2em 2.4em;
+  }
+  &__title {
+    margin-bottom: 0.33em;
+    font-size: 1.2em;
+    color: $g-blue-darker;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  }
+  @include bp( large ){
+    @include clearfix;
+    & > a {
+      float:left;
+      width: 33.33%;
+    }
+    &__image {
+      @include shadow;
+    }
+    &__content {
+      float:left;
+      width: 66.66%;
+    }
+    .flexbox & {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__image {
+        float: none;
+      }
+      &__content {
+        float: none;
+      }
+    }
+  }
+  @include bp( xxlarge ){
+    .flexbox & {
+      display: block;
+    }
+    @include gallery(4);
+    & > a {
+      width: 100%;
+      float: none;
+    }
+    &__content {
+      padding-top: 1.9em;
+      padding-bottom: 0;
+      width: 100%;
+    }
+    &:nth-child(1) .feature__content {
+      padding-left: 4.4em;
+      padding-right: 0;
+    }
+    &:nth-child(2) .feature__content {
+      padding-left: 2.2em;
+      padding-right: 2.2em;
+    }
+    &:nth-child(3) .feature__content {
+      padding-left: 0;
+      padding-right: 4.4em;
+    }
+  }
+}

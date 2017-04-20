@@ -1,0 +1,73 @@
+- title: Example Offer
+  coast-beaches: true
+  food-wine: true
+  culture-heritage: true
+  adventure-nature: true
+  hidden-gems: true
+  location: Location name, Greece
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  price: 99999
+  price-description: per room per night
+  saved: 80
+  expires: 2017/06/01
+  link: "#offer-link"
+  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+  description-list: >
+    <li>Staying just five minutes from the beach</li>
+    <li>Indulging in a spa treatment or two, or three...</li>
+    <li>Exploring the ancient hilltop villages and breath-taking beaches of Crete</li>
+
+- title: Example Offer
+  coast-beaches: true
+  location: Location name, Greece
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  price: 99999
+  price-description: per room per night
+  saved: 80
+  expires: 2017/06/01
+  link: "#offer-link"
+
+- title: Example Offer
+  food-wine: true
+  location: Location name, Greece
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  price: 99999
+  price-description: per room per night
+  saved: 80
+  expires: 2017/06/01
+  link: "#offer-link"
+
+- title: Example Offer
+  culture-heritage: true
+  location: Location name, Greece
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  price: 99999
+  price-description: per room per night
+  saved: 80
+  expires: 2017/06/01
+  link: "#offer-link"
+
+- title: Example Offer
+  adventure-nature: true
+  location: Location name, Greece
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  price: 99999
+  price-description: per room per night
+  saved: 80
+  expires: 2017/06/01
+  link: "#offer-link"
+
+- title: Example Offer
+  hidden-gems: true
+  location: Location name, Greece
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  price: 99999
+  price-description: per room per night
+  saved: 80
+  expires: 2017/06/01
+  link: "#offer-link"
+  description-long: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+  description-list: >
+    <li>Staying just five minutes from the beach</li>
+    <li>Indulging in a spa treatment or two, or three...</li>
+    <li>Exploring the ancient hilltop villages and breath-taking beaches of Crete</li>

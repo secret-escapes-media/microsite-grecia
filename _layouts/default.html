@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  {% assign page-title = page.title | slugify %}
+  {% assign page-category = page.category %}
+
+  <body id="top" class="page--{{page-title}} category--{{page-category}}" data-current-page="{{page-title}}" data-current-category="{{page-category}}">
+
+    {% include tracking.html %}
+
+    {% include header.html %}
+
+    <div class="background-image" style="background-image: url('{{site.baseurl}}/img/bg/{{ page.title | slugify }}.jpg');"></div>
+    <div class="background-image__offset"></div>
+    {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

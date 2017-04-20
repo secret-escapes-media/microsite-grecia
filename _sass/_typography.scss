@@ -1,0 +1,159 @@
+// general typographic styles
+
+
+// -------- root typography styles --------
+
+$core-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+$main-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+$title-font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+html { font-size:62.5%; }
+body,
+input, textarea, keygen, select, button {
+  font: 400 14px/1.728 $main-font-family;
+  -webkit-text-size-adjust: 100%;
+  @include bp(medium) {
+    font-size: 15px;
+  }
+  color: $paragraph-black;
+}
+
+
+// -------- Headings --------
+
+.title {
+  font-family: $title-font-family;
+  letter-spacing: .05em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  + *   { margin-top: .75em; }
+  * + & { margin-top: .75em; }
+  &--margin-none + * { margin-top: 0; }
+  &--margin + * { margin-top: 1.5em; }
+  * + &--margin-top { margin-top: 3em; }
+
+  &--sub-heading { margin-top: 0 !important; }
+
+  &--color     { color: $g-blue-darker }
+  &--white     { color: $white }
+  &--core       { font-family: $core-font-family; font-weight: 400; line-height: 1.1; }
+  &--light     { font-weight: 300; }
+  &--bold      { font-weight: 500; }
+  &--bolder    { font-weight: 600; }
+  &--condense  { letter-spacing: 0; }
+  &--expanded  { letter-spacing: .25em; }
+  &--tight     { line-height: .9; }
+  &--tighter   { line-height: .8; }
+  &--upper     { text-transform: uppercase; }
+  &--italic    { font-style: italic; }
+
+  // &--largest     { font-size: 2.986em; }
+  // &--larger      { font-size: 2.25em; }
+  // &--large       { font-size: 2em; }
+  // &--medium      { font-size: 1.867em; }
+  // &--small       { font-size: 1.867em; }
+  &--smaller     { font-size: 1.867em; }
+  &--smallest    { font-size: 1.467em; }
+  // @include bp(small){
+  //   &--largest     { font-size: 3.583em; }
+  //   &--larger      { font-size: 2.488em; }
+  //   &--large       { font-size: 2.488em; }
+  // }
+  // @include bp(medium){
+  //   &--largest     { font-size: 5.16em; }
+  //   &--larger      { font-size: 2.9em; }
+  // }
+  // @include bp(large){
+  //   &--largest     { font-size: 6.192em; }
+  //   &--larger      { font-size: 3.533em; }
+  //   &--large       { font-size: 3.375em; }
+  //   &--medium      { font-size: 2.488em; }
+    &--small       { font-size: 2.2em; }
+  // }
+  // @include bp(xxxlarge){
+    &--largest     { font-size: 8em; }
+    &--larger      { font-size: 5.16em; }
+    &--large       { font-size: 3.533em; }
+    &--medium      { font-size: 2.9em; }
+  // }
+
+
+  &--hrs{
+    overflow: hidden;
+    line-height: 1;
+    text-align: center;
+    span {
+      position: relative;
+      display: inline-block;
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        height: 1px;
+        margin-top: -.5px;
+        width: 300%;
+        background-color: $g-grey-light;
+      }
+      &:before {
+        right: 100%;
+        margin-right: 1em;
+      }
+      &:after {
+        left: 100%;
+        margin-left: 1em;
+      }
+    }
+  }
+  &--hrs-white{
+    span:before,
+    span:after {
+      background-color: $white;
+    }
+  }
+}
+
+.line-length {
+  max-width: $xlarge;
+  &--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+p {
+  font-weight: 200;
+  letter-spacing: .015em;
+}
+
+.p--lead {
+  font-size: 1.25em;
+  line-height: 1.55;
+}
+.p--large { font-size: 1.05em; }
+.p--small { font-size: .85em; }
+
+
+// -------- general content styles --------
+
+p + *         { margin-top: 1em; }
+li            { list-style-position: inside; }
+ul li         { list-style-type: disc; }
+ol li         { list-style-type: decimal; }
+em            { font-style: italic; font-weight: 400; }
+strong        { font-weight: 800; }
+.align-left   { text-align: left; }
+.align-right  { text-align: right; }
+.align-center { text-align: center; }
+
+ol > li {
+  list-style-position: outside;
+  margin-left: 1.75em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $light-grey;
+  margin: 1em 0;
+}

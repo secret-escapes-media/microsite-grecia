@@ -1,0 +1,53 @@
+---
+layout: default
+---
+  <div class="page__wrap">
+    <section class="row page shadow bg--white">
+
+      <h1 class="page__title"><span class="title">{{page.title}}</span></h1>
+
+      <div class="row">
+        <div class="video js-youtube-thumbnail" data-thumbnail-img="{{site.baseurl}}/img/video/{{page.title | slugify}}.jpg">
+          <iframe class="video__iframe" src='https://www.youtube.com/embed/{{page.youtube-id}}?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen="allowfullscreen"></iframe>
+        </div>
+      </div>
+
+      <div class="row row--padding">
+        <p class="p--large line-length line-length--center">{{page.intro}}</p>
+      </div>
+
+      <div class="row features">
+        {% assign features = page.features %}
+        {% for feature in features %}
+          <div class="feature">
+            <a href="{{feature.link}}">
+              <div class="feature__image bg-image-ratio bg-image-ratio--3-2-to-1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.title | slugify}}/{{feature.title | slugify}}.jpg);"></div>
+            </a>
+            <div class="feature__content">
+              <h3 class="feature__title title">{{feature.title}}</h3>
+              <p>{{feature.description}}</p>
+              <a href="{{feature.link}}" class="btn btn--outline-blue">See More</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+    </section>
+  </div>
+
+<!-- OFFERS FOR CATEGORY -->
+<section class="section offers">
+  <div class="row row--padding">
+    <h2 class="align-center title title--medium title--color title--light title--hrs"><span>{{page.title}} Offers</span></h2>
+  </div>
+  <div class="row row--padding">
+    {% assign page-class = page.title | slugify %}
+    {% assign offers = site.data.offers | where: page-class, true | sort: 'saved' | reverse %}
+    {% for offer in offers %}
+      {% include offer.html %}
+    {% endfor %}
+  </div>
+  <div class="align-center">
+    <a href="{{site.baseurl}}/offers" class="btn btn--orange">See All Offers</a>
+  </div>
+</section>
