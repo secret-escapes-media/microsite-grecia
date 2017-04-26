@@ -20,13 +20,10 @@ layout: default
         {% assign features = page.features %}
         {% for feature in features %}
           <div class="feature">
-            <a href="{{feature.link}}">
-              <div class="feature__image bg-image-ratio bg-image-ratio--3-2-to-1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.title | slugify}}/{{feature.title | slugify}}.jpg);"></div>
-            </a>
+            <div class="feature__image bg-image-ratio bg-image-ratio--3-2-to-1-1" style="background-image: url({{site.baseurl}}/img/content/{{page.title | slugify}}/{{feature.title | slugify}}.jpg);"></div>
             <div class="feature__content">
               <h3 class="feature__title title">{{feature.title}}</h3>
               <p>{{feature.description}}</p>
-              <a href="{{feature.link}}" class="btn btn--outline-blue">See More</a>
             </div>
           </div>
         {% endfor %}

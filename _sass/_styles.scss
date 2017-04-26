@@ -373,11 +373,9 @@
   }
   @include bp( large ){
     @include clearfix;
-    & > a {
+    &__image {
       float:left;
       width: 33.33%;
-    }
-    &__image {
       @include shadow;
     }
     &__content {
@@ -401,7 +399,7 @@
       display: block;
     }
     @include gallery(4);
-    & > a {
+    &__image {
       width: 100%;
       float: none;
     }
