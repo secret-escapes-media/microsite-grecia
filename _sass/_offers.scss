@@ -122,13 +122,13 @@
   $circle-height: 50px;
   &__saved {
       display: table-cell;
+      width: 33.33%;
       padding-right: ($margin/1.5);
       line-height: 1.2;
       text-align: center;
       border-right: 1px solid $grey-lighter;
-      vertical-align: bottom !important;
     &-num {
-      display: block;
+      display: inline-block;
       width: $circle-height;
       height: $circle-height;
       margin-top: .2em;
@@ -147,7 +147,7 @@
       padding-right: $margin;
     }
     @include bp(medium){
-      vertical-align: middle !important;
+      width: auto;
     }
   }
   &__details {
