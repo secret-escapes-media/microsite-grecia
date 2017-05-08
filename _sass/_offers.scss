@@ -84,7 +84,10 @@
     background-color: $white;
   }
   &--hidden-gem &__content {
-    padding: ($margin*1.25) ($margin*1.75);
+    padding: $margin ($margin*1.25);
+    @include bp(large){
+      padding: ($margin*1.25) ($margin*1.75);
+    }
   }
   &__title {
     font-family: $main-font-family;
@@ -193,6 +196,7 @@
         &--right {
           text-align: right;
           vertical-align: bottom !important;
+          .offer--hidden-gem & { vertical-align: middle !important; }
           @include bp(medium){
             vertical-align: middle !important;
           };
