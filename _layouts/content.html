@@ -34,17 +34,7 @@ layout: default
 
 <!-- OFFERS FOR CATEGORY -->
 <section class="section offers">
-  <div class="row row--padding">
-    <h2 class="align-center title title--medium title--color title--light title--hrs"><span>{{page.title}} Offers</span></h2>
-  </div>
-  <div class="row row--padding">
-    {% assign page-class = page.title | slugify %}
-    {% assign offers = site.data.offers | where: page-class, true | sort: 'saved' | reverse %}
-    {% for offer in offers %}
-      {% include offer.html %}
-    {% endfor %}
-  </div>
-  <div class="align-center">
-    <a href="{{site.baseurl}}/offers" class="btn btn--orange">See All Offers</a>
+  <div class="align-center row--padding">
+    <a href="{{site.baseurl}}/offerte" class="btn btn--large btn--orange">Tutte le offerte</a>
   </div>
 </section>

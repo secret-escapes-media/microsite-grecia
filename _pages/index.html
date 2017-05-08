@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Overview
+title: Home
 nav-order: 1
-intro-title: Get To Greece
-intro: In this land of contrasts, domed blue churches crown whitewashed villages, bougainvillea-blanketed backstreets lead to wide sandy bays, Byzantine churches exist alongside luxury hideaways, and glamorous party islands neighbour those that time forgot. Dive into the glittering sea from a sailing boat and catch the sunset on the way back to shore - you’ll soon see why this is a destination fit for gods.
+intro-title: Viaggiare in Grecia
+intro: Una terra dai mille contrasti, dove mucchietti di cupole blu colorano bianchi villaggi che si inerpicano a strapiombo sul mare, interminabili tappeti di buganvillea scivolano verso spiagge dorate, basiliche bizantine svettano a fianco di rifugi luxury nascosti, e feste glamour animano fino a notte fonda isole in cui il tempo sembra essersi fermato. Lasciati cullare su una barca a vela, guardando il sole tuffarsi all’orizzonte in un mare cristallino – ecco a te, la terra prediletta dagli dèi dell’Olimpo!
 ---
 
 
@@ -11,7 +11,7 @@ intro: In this land of contrasts, domed blue churches crown whitewashed villages
   <div class="padding shadow narrow bg--white-trans align-center">
     <h1 class="title title--color title--large">{{page.intro-title}}</h1>
     <p>{{page.intro}}</p>
-    <a href="{{site.baseurl}}/offers" class="btn btn--blue">See All Offers</a>
+    <a href="{{site.baseurl}}/offerte" class="btn btn--blue">Tutte le offerte</a>
   </div>
 </section>
 
@@ -21,7 +21,7 @@ intro: In this land of contrasts, domed blue churches crown whitewashed villages
     <!-- gets all pages except overview -->
     {% assign nav-order = site.html_pages | sort:"nav-order" %}
     {% for page in nav-order %}
-      {% if page.title != "Overview" %}
+      {% if page.title != "Home" %}
         <li class="overview-nav__item">
           <a class="overview-nav__link" id="overview-nav-{{ page.class }}" href="{{ site.baseurl }}{{ page.url }}"></a>
           <div class="overview-nav__title-wrap">
@@ -37,7 +37,7 @@ intro: In this land of contrasts, domed blue churches crown whitewashed villages
 <!-- OFFERS - ONLY 2 -->
 <section class="section offers">
   <div class="row row--padding">
-    <h2 class="align-center title title--medium title--color title--light title--hrs"><span>Exclusive Offers</span></h2>
+    <h2 class="align-center title title--medium title--color title--light title--hrs"><span>Offerte esclusive</span></h2>
   </div>
   <div class="row row--padding">
     {% assign offers = site.data.offers | sort: 'saved' | reverse %}
@@ -46,6 +46,6 @@ intro: In this land of contrasts, domed blue churches crown whitewashed villages
     {% endfor %}
   </div>
   <div class="align-center">
-    <a href="{{site.baseurl}}/offers" class="btn btn--orange">See All Offers</a>
+    <a href="{{site.baseurl}}/offerte" class="btn btn--orange">Tutte le offerte</a>
   </div>
 </section>

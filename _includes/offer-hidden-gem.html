@@ -1,6 +1,6 @@
 <div class="offer offer--hidden-gem shadow">
 
-  <a class="offer__link" href="{{ offer.link }}"><span class="btn btn--orange">View Offer</span></a>
+  <a class="offer__link" href="{{ offer.link }}"><span class="btn btn--orange">Visualizza offerta</span></a>
 
   <div class="row row--columns-8-4 offer__images">
     <div class="row__column">
@@ -25,10 +25,10 @@
     <div class="offer__bottom">
       <div class="offer__bottom-item">
         <div class="offer__saved">
-          <span class="p--small">Save up to</span> <span class="offer__saved-num">{{ offer.saved }}%</span>
+          <span class="p--small">Risparmia fino al</span> <span class="offer__saved-num">{{ offer.saved }}%</span>
         </div>
         <div class="offer__details">
-          <div class="p--small">From <span class="offer__price">£{{ offer.price }}</span></div>
+          <div class="p--small">A partire da <span class="offer__price">£{{ offer.price }}</span></div>
           <div class="p--small">{{ offer.price-description }}</div>
           <div class="js-offer-expires p--small" data-expires="{{ offer.expires }}"></div>
         </div>

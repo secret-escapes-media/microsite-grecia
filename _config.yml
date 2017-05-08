@@ -1,8 +1,8 @@
 # Site settings
-title: Greece
+title: Grecia
 description: >
-  Dive into the glittering sea from a sailing boat and catch the sunset on the way back to shore - you’ll soon see why this is a destination fit for gods.
-baseurl: "/greece" # the subpath of your site, e.g. /blog/
+  Una terra dai mille contrasti, dove mucchietti di cupole blu colorano bianchi villaggi che si inerpicano a strapiombo sul mare, interminabili tappeti di buganvillea scivolano verso spiagge dorate, basiliche bizantine svettano a fianco di rifugi luxury nascosti, e feste glamour animano fino a notte fonda isole in cui il tempo sembra essersi fermato. Lasciati cullare su una barca a vela, guardando il sole tuffarsi all’orizzonte in un mare cristallino – ecco a te, la terra prediletta dagli dèi dell’Olimpo!
+baseurl: "/grecia" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 
 # Build settings

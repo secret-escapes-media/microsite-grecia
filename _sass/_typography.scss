@@ -47,36 +47,23 @@ input, textarea, keygen, select, button {
   &--upper     { text-transform: uppercase; }
   &--italic    { font-style: italic; }
 
-  // &--largest     { font-size: 2.986em; }
-  // &--larger      { font-size: 2.25em; }
-  // &--large       { font-size: 2em; }
-  // &--medium      { font-size: 1.867em; }
-  // &--small       { font-size: 1.867em; }
+  &--larger      { font-size: 3.375em; }
+  &--large       { font-size: 2.488em; }
+  &--medium      { font-size: 2.25em; }
+  &--small       { font-size: 2em; }
   &--smaller     { font-size: 1.867em; }
   &--smallest    { font-size: 1.467em; }
-  // @include bp(small){
-  //   &--largest     { font-size: 3.583em; }
-  //   &--larger      { font-size: 2.488em; }
-  //   &--large       { font-size: 2.488em; }
-  // }
-  // @include bp(medium){
-  //   &--largest     { font-size: 5.16em; }
-  //   &--larger      { font-size: 2.9em; }
-  // }
-  // @include bp(large){
-  //   &--largest     { font-size: 6.192em; }
-  //   &--larger      { font-size: 3.533em; }
-  //   &--large       { font-size: 3.375em; }
-  //   &--medium      { font-size: 2.488em; }
-    &--small       { font-size: 2.2em; }
-  // }
-  // @include bp(xxxlarge){
+  @include bp(small){
+    &--large       { font-size: 2.986em; }
+  }
+  @include bp(large){
     &--largest     { font-size: 8em; }
     &--larger      { font-size: 5.16em; }
     &--large       { font-size: 3.533em; }
     &--medium      { font-size: 2.9em; }
-  // }
+    &--small       { font-size: 2.2em; }
 
+  }
 
   &--hrs{
     overflow: hidden;
@@ -128,7 +115,7 @@ p {
 
 .p--lead {
   font-size: 1.25em;
-  line-height: 1.55;
+  line-height: 1.4;
 }
 .p--large { font-size: 1.05em; }
 .p--small { font-size: .85em; }

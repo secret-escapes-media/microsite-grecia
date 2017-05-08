@@ -51,7 +51,6 @@
   padding-bottom: ($margin*2);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5em;
   &--hidden-gems {
     padding-bottom: 1px; // weird bug, but is the right size
     margin-bottom: 0;
@@ -193,17 +192,6 @@
   &--white       { background-color: $white; }
   &--white-trans { background-color: rgba($white,.85); }
 }
-//
-// .local {
-//   text-align: center;
-//   &__interview { text-align: left; }
-//   &__avatar { max-width: $medium; margin-left: auto; margin-right: auto; }
-//   & + & { margin-top: ($margin*4); }
-//   @include bp(xlarge){
-//     text-align: left;
-//     // & + & { margin-top: ($margin*2); }
-//   }
-// }
 
 .offer-promo {
   position: relative;
