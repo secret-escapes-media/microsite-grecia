@@ -82,15 +82,6 @@
   expires: 2017/05/31
   link: https://it.secretescapes.com/rodos-maris-resort-and-spa-rodi-grecia/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_rodos
 
-- title: Cretan Pearl Resort & Spa
-  location: Creta, Grecia
-  description: Soggiorno cinque stelle all-inclusive, con meravigliosi panorami sul mare
-  price: 88
-  price-description: per room per notte
-  saved: 44
-  expires: 2017/06/06
-  link: https://it.secretescapes.com/cretan-pearl-resort-and-spa-creta-grecia/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_cretan
-
 - title: Grecotel Filoxenia
   location: Kalamata, Grecia
   description: Fuga indimenticabile, nella terra delle olive Kalamata - con mezza pensione inclusa
@@ -99,3 +90,13 @@
   saved: 33
   expires: 2017/05/31
   link: https://it.secretescapes.com/grecotel-filoxenia-kalamata-grecia/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_grecotel
+
+- title: Sette notti sulle coste da sogno di Creta
+  location: Hotel Sea Side Resort, Aghia Pelagia, Creta, Grecia
+  description: Sette notti all-inclusive in uno sfavillante cinque stelle sul litorale cretese - con voli inclusi
+  price: 937
+  price-description: per persona per 7 notti
+  saved: 30
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/sette-notti-sulle-coste-da-sogno-di-creta-hotel-sea-side-resort-aghia-pelagia-creta/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_sette
+
