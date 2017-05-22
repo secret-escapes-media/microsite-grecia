@@ -2,10 +2,10 @@
   tesori-nascosti: true
   location: Attica, Grecia
   description: Soggiorno in mezza pensione in resort a cinque stelle affacciato sul mare, con spiaggia privata
-  price: 194
+  price: 174
   price-description: per bungalow per notte
-  saved: 41
-  expires: 2017/05/16
+  saved: 46
+  expires: 2017/05/23
   link: https://it.secretescapes.com/cape-sounio-grecotel-exclusive-resort-attica-grecia/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_CapeSounio
   description-long: Chi ha detto che una vacanza culturale non possa essere anche rilassante? Prendi la trasparenza del Mar Egeo, aggiungi la ricchezza culturale dell'Attica e completa il quadro con un sogno a cinque stelle. In questo esclusivo resort situato a Cape Sounio, nella costa a sud di Atene, benessere e lusso sono una cosa sola.
   description-list: >
@@ -33,8 +33,8 @@
   description: Soggiorno a cinque stelle in un boutique hotel a Santorini, con colazione e tanti tanti extra
   price: 188
   price-description: per suite per notte
-  saved: 51
-  expires: 2017/05/16
+  saved: 52
+  expires: 2017/05/23
   link: https://it.secretescapes.com/zannos-melathron-santorini/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_ZannosMelathron
 
 - title: Sette notti sulle spiagge di Mykonos
@@ -52,7 +52,7 @@
   price: 574
   price-description: per persona per 7 notti
   saved: 26
-  expires: 2017/05/16
+  expires: 2017/05/23
   link: https://it.secretescapes.com/sette-notti-dincanto-a-santorini-hotel-sellada-apartments-santorini/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_Santorini
 
 - title: Corfu Imperial - Grecotel Exclusive Resort
@@ -61,23 +61,41 @@
   price: 106
   price-description: per bungalow per notte
   saved: 24
-  expires: 2017/05/16
+  expires: 2017/05/23
   link: https://it.secretescapes.com/corfu-imperial-grecotel-exclusive-resort-corfu/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_Corfu
 
-- title: Dionysos Boutique Hotel Mykonos
-  location: Mykonos, Grecia
-  description: Elegante hotel immerso nella vitalità di Mykonos, con colazione, drink e altri extra
-  price: 144
+- title: Estate 1896
+  location: Santorini, Grecia
+  description: Una gemma architettonica lontano dalla Santorini più turistica - con colazione e vino
+  price: 104
   price-description: per camera per notte
-  saved: 36
-  expires: 2017/05/16
-  link: https://it.secretescapes.com/dionysos-mykonos-hotel-mykonos-grecia/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_Dionyso
+  saved: 27
+  expires: 2017/05/30
+  link: https://it.secretescapes.com/estate-1896-santorini/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_estate1896
 
-- title: Tour della Grecia classica e Meteore, sette notti
-  location: Atene, Olympia, Delfi, Kalambaka - Grecia
-  description: Scopri i tesori della Grecia tra miti, leggende e panorami unici - mezza pensione e voli
-  price: 1,309
-  price-description: per persona per 7 notti
-  saved: 15
-  expires: 2017/05/16
-  link: https://it.secretescapes.com/tour-della-grecia-classica-e-meteore-sette-notti-atene-olympia-delfi-kalambaka/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_Atene
+- title: Rodos Maris Resort & Spa
+  location: Rodi, Grecia
+  description: Vacanza all-inclusive a quattro stelle sull'isola di Rodi
+  price: 92
+  price-description: per room per notte
+  saved: 23
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/rodos-maris-resort-and-spa-rodi-grecia/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_rodos
+
+- title: Cretan Pearl Resort & Spa
+  location: Creta, Grecia
+  description: Soggiorno cinque stelle all-inclusive, con meravigliosi panorami sul mare
+  price: 88
+  price-description: per room per notte
+  saved: 44
+  expires: 2017/06/06
+  link: https://it.secretescapes.com/cretan-pearl-resort-and-spa-creta-grecia/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_cretan
+
+- title: Grecotel Filoxenia
+  location: Kalamata, Grecia
+  description: Fuga indimenticabile, nella terra delle olive Kalamata - con mezza pensione inclusa
+  price: 111
+  price-description: per camera per notte
+  saved: 33
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/grecotel-filoxenia-kalamata-grecia/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_grecotel
