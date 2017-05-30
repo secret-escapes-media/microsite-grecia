@@ -1,19 +1,17 @@
-
-
-- title: Estate 1896
+- title: Sette notti all-inclusive sulla riviera di Taormina
   tesori-nascosti: true
-  location: Santorini, Grecia
-  description: Una gemma architettonica lontano dalla Santorini più turistica - con colazione e vino
-  price: 104
-  price-description: per camera per notte
-  saved: 27
-  expires: 2017/05/30
-  link: https://it.secretescapes.com/estate-1896-santorini/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_estate1896
-  description-long: "È veramente difficile non innamorarsi di questo angolo di Mar Egeo e sarà ancor più difficile andar via da un paesino come Pyrgos, un incantevole borgo che conserva ancora l'atmosfera tipica della Grecia: viuzze tortuose e caseggiati bianchi che si arrampicano sulla collina intorno alla fortezza veneziana."
+  location: Capo dei Greci Resort Hotel & Spa, Taormina
+  description: "Tutto il fascino della Sicilia per sette notti in un resort sul mare, con voli inclusi"
+  price: 795
+  price-description: per persona per 7 notti
+  saved: 36
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/sette-notti-all-inclusive-sulla-riviera-di-taormina-capo-dei-greci-resort-hotel-and-spa-taormina/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_sette
+  description-long: "Un poeta una volta disse che il mare, una volta lanciato il suo incantesimo, ti terrà per sempre nella sua aura di meraviglia. E questa è una grande verità, soprattutto se il mare in questione è quello della splendida Baia di Taormina, con le sue incantevoli calette nascoste e le ampie spiagge dall’acqua cristallina."
   description-list: >
-    <li>Visitare il castello veneziano in cima alla collina: nessuna foto riuscirà a catturare la bellezza del panorama</li>
-    <li>Soggiornare in una struttura a conduzione familiare, dove si sente il calore dell'ospitalità greca</li>
-    <li>Essere nella tranquilla Pyrgos, lontano dalle zone più affollate di Santorini come Thira e Oia</li>
+    <li>La favolosa posizione del resort, affacciato sulla Baia di Taormina</li>
+    <li>Gustare ottime specialità siciliane nel ristorante del resort, accompagnate da un buon vino locale</li>
+    <li>Abbronzarci in spiaggia per poi rilassarci sulla suggestiva terrazza panoramica</li>
 
 - title: Ammos Resort
   tesori-nascosti: true
@@ -22,7 +20,7 @@
   price: 63
   price-description: per camera per notte
   saved: 62
-  expires: 2017/05/23
+  expires: 2017/05/31
   link: https://it.secretescapes.com/ammos-resort-kos/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_AmmosResort
   description-long: Affacciato sulle acque più blu del Mar Egeo e circondato dalle splendide isole del Dodecanneso, Ammos Resort ti regala un luogo perfetto per la tua vacanza tra mito e storia sull’isola di Kos, a 10 minuti da Mastichari e a 20 minuti di traghetto dall’isola di Kalimnos.
   description-list: >
@@ -57,3 +55,29 @@
   expires: 2017/05/31
   link: https://it.secretescapes.com/sette-notti-sulle-coste-da-sogno-di-creta-hotel-sea-side-resort-aghia-pelagia-creta/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_sette
 
+- title: Tour della Grecia classica e Meteore, sette notti
+  location: Atene, Olympia, Delfi, Kalambaka - Grecia
+  description: Scopri i tesori della Grecia tra miti, leggende e panorami unici - mezza pensione e voli
+  price: 1309
+  price-description: per persona per 7 notti
+  saved: 15
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/tour-della-grecia-classica-e-meteore-sette-notti-atene-olympia-delfi-kalambaka/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_sette
+
+- title: Sette notti sulle spiagge di Mykonos
+  location: Hotel Paolas Beach - Mykonos, Grecia
+  description: "Vola a Mykonos per godere l'essenza delle isole greche: sole, mare e tanto relax"
+  price: 554
+  price-description: per persona per 7 notti
+  saved: 25
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/sette-notti-sulle-spiagge-di-mykonos-hotel-paolas-beach-mykonos-grecia2/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_sette
+
+- title: Vacanza incantevole a Santorini
+  location: El Greco Resort - Fira, Santorini
+  description: "Una vacanza indimenticabile tra le meraviglie dell’Egeo, con voli diretti e colazione"
+  price: 1037
+  price-description: per persona per 7 notti
+  saved: 23
+  expires: 2017/05/31
+  link: https://it.secretescapes.com/vacanza-sullindimenticabile-isola-di-santorini-el-greco-resort-fira2/sale?gce_urg=0&utm_source=SE&utm_medium=Hub&utm_campaign=Grecia_201705_sette
